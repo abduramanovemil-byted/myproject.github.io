@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Отзывы клиентов | Transfer990</title>
+
+  <link rel="stylesheet" href="style.css?v=13">
+  <link rel="stylesheet" href="review.css?v=5">
+  <link rel="icon" type="image/svg+xml" href="photo/logo.svg">
+
+  <meta name="author" content="Transfer990">
+  <!-- Добавь этот блок внутри тега <head> в твоих HTML файлах -->
+<meta property="og:title" content="Transfer990 — Премиум трансфер">
+<meta property="og:description" content="Безопасные и комфортные поездки на автомобилях бизнес-класса. Рассчитайте стоимость поездки онлайн.">
+<!-- Путь к красивой фотографии авто (например, Mercedes S-Class) для превью -->
+
+</head>
+
+<body>
+
+  <div class="messenger">
+    <a href="tel:+79787533020" class="call">
+      <img src="photo/phone.svg" alt="Позвонить">
+    </a>
+    <a href="https://wa.me/79787533020" target="_blank" class="whatsapp"><img src="photo/whatsapp.svg" alt="WhatsApp"></a>
+    <a href="https://t.me/transfer_k" class="telegram"><img src="photo/telegram.svg" alt="Telegram"></a>
+    <a href="https://max.ru/u/f9LHodD0cOI01ljMvwVzt6AtBrSa9gArK0128jhLsHk-8RRKNHMxVYR2vqo" target="_blank" class="maxmsg"><img src="photo/max.svg" alt="MAX"></a>
+  </div>
+
+  <header>
+    <div class="con">
+      <div class="navb">
+
+        <div class="logo">
+          <a href="index.html">
+            <img src="photo/logo.svg" alt="Логотип">
+          </a>
+        </div>
+
+        <nav>
+          <a href="index.html">Главная</a>
+          <a href="apark.html">Автопарк</a>
+          <a href="index.html#napr">Направления</a>
+          <a href="review.html" class="active">Отзывы</a>
+          <a href="#contact">Контакты</a>
+        </nav>
+
+        <div class="header1">
+          <a href="tel:+79787533020" class="tel">
+            +7 (978) 753-30-20
+          </a>
+          <a href="index.html#form" class="btn">
+            Заказать трансфер
+          </a>
+        </div>
+
+        <button class="burger" id="burgerBtn" aria-label="Открыть меню">
+          <span></span><span></span><span></span>
+        </button>
+
+      </div>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="index.html">Главная</a>
+      <a href="apark.html">Автопарк</a>
+      <a href="index.html#napr">Направления</a>
+      <a href="review.html" class="active">Отзывы</a>
+      <a href="index.html#contact">Контакты</a>
+      <a href="tel:+79787533020" class="mm-tel">+7 (978) 753-30-20</a>
+      <a href="index.html#form" class="btn">Заказать трансфер</a>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="reviewHero">
+    <div class="reviewHeroContent">
+      <p class="hero3 fade-in">
+        ОТЗЫВЫ КЛИЕНТОВ
+      </p>
+
+      <h1 class="fade-in">
+        Более 500 довольных пассажиров
+      </h1>
+
+      <p class="fade-in">
+        Мы ценим доверие каждого клиента и всегда стремимся сделать каждую поездку максимально комфортной.
+      </p>
+    </div>
+  </section>
+
+  <!-- GRID ОТЗЫВОВ -->
+  <section class="reviewsPage">
+    <div class="reviewGrid" id="reviewGrid">
+      <p class="no-reviews-yet fade-in show">
+        Отзывов пока нет — станьте первым, кто поделится впечатлением о поездке!
+      </p>
+    </div>
+  </section>
+
+
+<section class="review-form fade-in">
+
+    <h2>Оставить отзыв</h2>
+
+    <p>Расскажите, как прошла ваша поездка.</p>
+
+    <form id="reviewForm">
+
+        <input
+            type="text"
+            id="name"
+            placeholder="Ваше имя"
+            required
+        >
+
+        <div class="rating">
+
+    <span class="star active" data-value="1">★</span>
+    <span class="star active" data-value="2">★</span>
+    <span class="star active" data-value="3">★</span>
+    <span class="star active" data-value="4">★</span>
+    <span class="star active" data-value="5">★</span>
+
+    <input type="hidden" id="rating" value="5">
+
+</div>
+
+        <textarea
+            id="text"
+            placeholder="Напишите отзыв..."
+            rows="6"
+            required
+        ></textarea>
+
+        <button type="submit" class="btn8 fade in">
+
+            Отправить отзыв
+
+        </button>
+
+    </form>
+
+</section>
+
+
+  <!-- СЧЕТЧИКИ ЦИФР -->
+  <section class="numbers">
+    <div class="number-card fade-in">
+      <h2 data-count="2000">0+</h2>
+      <p>Довольных клиентов</p>
+    </div>
+
+    <div class="number-card fade-in">
+      <h2>4.9</h2>
+      <p>Средняя оценка</p>
+    </div>
+
+    <div class="number-card fade-in">
+      <h2 data-count="20">0+</h2>
+      <p>Лет опыта</p>
+    </div>
+
+    <div class="number-card fade-in">
+      <h2>24/7</h2>
+      <p>Поддержка</p>
+    </div>
+  </section>
+
+  <!-- ПРИЗЫВ К ДЕЙСТВИЮ -->
+  <section class="poe fade-in">
+    <h1>
+      Хотите такой же сервис?
+    </h1>
+    <p>
+      Оставьте заявку и мы организуем поездку премиум-класса.
+    </p>
+    <a href="index.html#form" class="btn8">
+      Заказать трансфер
+    </a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="sitefooter">
+    <div class="container5">
+      <div class="clogo">
+        <img src="photo/logo.svg" alt="VIP Перевозки Logo" class="logo2">
+        <div class="footerdesc">
+          Пассажирские перевозки по всему Крыму и России.<br>
+          Комфортные поездки в любые направления.
+        </div>
+      </div>
+
+      <div class="uli">
+        <div class="cserv">
+          <h3>Услуги</h3>
+          <ul>
+            <li>Трансфер в аэропорт</li>
+            <li>Межгород</li>
+            <li>Корпоративные перевозки</li>
+            <li>Индивидуальные маршруты</li>
+          </ul>
+        </div>
+
+        <div class="company">
+          <h3>Компания</h3>
+          <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="apark.html">Автопарк</a></li>
+            <li><a href="review.html">Отзывы</a></li>
+            <li><a href="#contact">Контакты</a></li>
+          </ul>
+        </div>
+
+        <div class="contact">
+          <h3 id="contact">Контакты</h3>
+          <ul>
+            <li><a href="tel:+79787533020" class="tel">+7 (978) 753-30-20</a></li>
+            <li><a href="mailto:arsenabduramanov30@gmail.com">arsenabduramanov30@gmail.com</a></li>
+            <li><a href="https://instagram.com/arsenabduramanov" target="_blank" rel="noopener">Instagram</a></li>
+            <li>Симферополь</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="palka"></div>
+
+    <div class="bottom">
+      <div class="left">
+        © 2026 Transfer990. Все права защищены. <br>
+        <span class="legal-info">ИП Абдураманов А.Р | ОГРНИП: 319911200028152 | ИНН: 910213997239</span>
+      </div>
+      <div class="right">
+        <a href="privacy.html" target="_blank">Политика конфиденциальности</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Контейнер для красивого всплывающего уведомления -->
+  <div id="toast" class="toast">Заявка успешно отправлена!</div>
+
+  <script src="script.js?v=7"></script>
+</body>
+</html>
